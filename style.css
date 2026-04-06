@@ -5,8 +5,15 @@ body {
 
 /* Hero Section */
 .hero {
-    height: 80vh;
-    background: linear-gradient(to right, #b5b5b5, #353435);
+    /* height: 80vh;
+    background: linear-gradient(to right, #b5b5b5, #353435); */
+       height: 80vh;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("https://images.unsplash.com/photo-1498050108023-c5249f4df085");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* Headings */
@@ -33,11 +40,11 @@ h2 {
 
 
 .profile-img {
-    width: 130px;
-    height: 130px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    border: 4px solid white;
     object-fit: cover;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    object-position: center top ;  /* 🔥 THIS FIXES FACE POSITION */
+    border: 4px solid white;
 }
 
