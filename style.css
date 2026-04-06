@@ -1,0 +1,43 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero {
+    height: 80vh;
+    background: linear-gradient(to right, #b5b5b5, #353435);
+}
+
+/* Headings */
+h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Project Cards */
+.project-card {
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Buttons */
+.btn {
+    border-radius: 25px;
+}
+
+
+.profile-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 4px solid white;
+    object-fit: cover;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
